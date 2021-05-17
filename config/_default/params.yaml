@@ -20,40 +20,33 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: zliu796@gatech.edu
+phone: (540)998-0985
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 2875 Crescent Pkwy
+  city: Atlanta
+  region: GA
+  postcode: '30339'
   country: United States
   country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
 contact_links:
+  - icon: envelope
+    icon_pack: fas
+    name: E-Mail
+    link: 'mailto:zliu796@gatech.edu'
+  - icon: linkedin
+    icon_pack: fab
+    name: LinkedIn
+    link: 'https://www.linkedin.com/in/zhe-liu-7493aa142/'
   - icon: twitter
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
+    name: Twitter
+    link: 'https://twitter.com/liuzhe_max'
+  - icon: facebook
     icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: Facebook
+    link: 'https://www.facebook.com/profile.php?id=100005061847023'
+
 
 # Site header
 
@@ -89,12 +82,12 @@ edit_page:
     post: false
     book: false
 show_related:
-  book: true
+  book: false
   page: false
-  post: true
+  post: false
   project: true
-  publication: true
-  event: true
+  publication: false
+  event: false
 reading_time: true
 section_pager: false
 docs_section_pager: true
