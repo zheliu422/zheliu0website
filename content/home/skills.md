@@ -21,7 +21,7 @@ feature:
   icon_pack: fas
   name: Hardware Design
 - description: 30%
-  icon: code
+  icon: file-code
   icon_pack: fas
   name: Software Design
 
@@ -34,8 +34,8 @@ feature:
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-#- icon: "your-custom-icon-name"
-#  icon_pack: "custom"
-#  name: "Surfing"
-#  description: "90%"
+- icon: "matlabsvg"
+  icon_pack: "custom"
+  name: "MatLab"
+  description: "90%"
 ---
