@@ -16,14 +16,18 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 70%
-  icon: tools
+- description: 
+  icon: drafting-compass
   icon_pack: fas
-  name: Hardware Design
-- description: 30%
+  name: Analog Design and Analysis
+- description: 
+  icon: bezier-curve
+  icon_pack: fas
+  name: VLSI design
+- description:
   icon: file-code
   icon_pack: fas
-  name: Software Design
+  name: Coding
 
 # Uncomment to use emoji icons.
 # - icon: ":smile:"
