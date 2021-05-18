@@ -1,7 +1,7 @@
 ---
 title: Zhe Liu
 role: Graduate Student
-avatar_filename: wechat-image_20200808125620.jpg
+avatar_filename: Image.jpg
 bio: ""
 interests:
   - Analog Mixed Signal
