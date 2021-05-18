@@ -44,6 +44,15 @@ experience:
     date_start: '2020-08-01'
     date_end: '2021-01-01'
     description: Improved the circuit performance of audio signal acquisition by utilizing 5th order Bessel low pass and high pass filter
+    
+  - title: IEEE Hardware Competition
+    company: Virginia Tech
+    company_url: ''
+    company_logo: 
+    location: Blacksburg, VA
+    date_start: '2019-08-01'
+    date_end: '2020-05-01'
+    description: Drafted, designed, and built a fully autonomous robot
 
 design:
   columns: '2'
