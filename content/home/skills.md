@@ -7,7 +7,7 @@ widget: featurette
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 20
 
 title: Skills
 subtitle:
@@ -18,7 +18,7 @@ subtitle:
 feature:
 - description: 70%
   icon: tools
-  icon_pack: fab
+  icon_pack: fas
   name: Hardware Design
 - description: 30%
   icon: code
