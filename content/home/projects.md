@@ -28,7 +28,7 @@ content:
   - name: All
     tag: '*'
   - name: ADC
-    tag: Deep Learning
+    tag: ADC
   - name: Other
     tag: Demo
 
