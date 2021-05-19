@@ -89,7 +89,9 @@ Below is the SAR Logic testing result. Notice that the input (Data) is set to 11
 Because SAR logic uses flip flop, we decide to implement a Positive-edge-triggered D flip-flop with Clear and Preset. Here, three input NAND gates are used. Below is the truth table of our DFF.
 {{< figure src="DFFtt.png" title="Truth Table for D Flip Flop" >}}
 
-
+## Comparator
+{{< figure src="comp.png" title="strongARM comparator" >}}
+For the comparator, the StrongARM latch is selected for our design.
 
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
