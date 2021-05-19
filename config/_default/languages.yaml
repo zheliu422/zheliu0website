@@ -18,18 +18,18 @@ zh:
     description: 刘哲个人网站
   menu:
     main:
-      - name: Home
+      - name: 简介
         url: '#about'
         weight: 10
-      - name: Skills
+      - name: 技能
         url: '#skills'
         weight: 20
-      - name: Education
+      - name: 教育
         url: '#experience'
         weight: 30
-      - name: Engineering Projects
+      - name: 项目
         url: '#posts'
         weight: 40
-      - name: Contact
+      - name: 联系
         url: '#contact'
         weight: 50
