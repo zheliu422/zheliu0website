@@ -73,7 +73,7 @@ The second stage is a 8-bit SAR ADC. The use of SAR architecture in the second s
 The classic SAR architecture is use due to its straightforward design technique. Figure above is the implementation on Cadence. It consists of a set of ring counter and a set of shift regisiter. There are 2x6+2 = 14 D flip flops in use. For each conversion, piror to the first clock rising edge, RESET will first clocked high to reset all flip flop's output to 0. After that, the RESET signal remains low for the reset of the process. Once the first rising edge approaches, the MSB flip flop is set to 1. Then when second rising edge approaches, the counter shifts 1 to the next flip flop until it reaches the LSB. SAR logic determains the value of bit one by one based on the comparator's output. For a 6-bit SAR logic, it requires 1+6 = 7 cycles to complete one single conversion. Table below is the algorithm of 6-bit SAR logic.
 
   | Clock | D1| D2| D3| D4| D5| D6 | COMP. Out |
-  | ------- | ----------------- | ------- |
+  | ------- |-|-|-|-|-| -| ------- |
   | RESET   | 0 |0| 0| 0 |0| 0       | -- |
   | 1       | 1| 0| 0| 0| 0| 0       | D1 |
   | 2       | D1 |1 |0 |0 |0 |0      | D2 |
