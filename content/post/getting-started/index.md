@@ -55,7 +55,28 @@ The target specifications are given in the following table:
 
 ## Get Started
 
-{{< figure src="adc1.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+{{< figure src="adc1.png" title="High Level Block Diagram of the Pipelined SAR ADC" >}}
+
+The diagram above shows the block diagram of the SAR ADC architecture. The ADC is a pipeline of a 6-bit and a 8-bit SAR ADCs. We decide to use differential sampling in order to cancel the common mode sampling offset. Furthermore, Vcm-based switching technique is used in both stages to lower the power consumption of the whole system.
+
+{{< figure src="adcst1.png" title="Stage 1 Schematic Diagram" >}}
+
+The first stage has 6-bit effective resolution. The first stage sub-ADC and CDAC share the same sampling capacitor array. There are several typical switching techniques that are available. We decide to use Vcm based switching technique mainly because the low power consumption and faster settling speed. However, one biggest drawback of this method is that it requires extra switches to control each capacitor. There are three possibilities at all sampling capacitors. Before the certain bit compared, the corresponding capacitor’s bottom plate is connected to Vcm. After comparison, its bottom plate will be connected to either ground or Vref depends on the comparing result is 1 or 0. Notice that the positive pair sampling capacitor array and the negative pair sampling capacitor array are connected opposite to each other. These sets of switches are controlled by a SAR logic unit which I'll go over in next section. Additional independent clock sets are used to make sure each capacitor is in the right phase. 
+
+{{< figure src="adcst2.png" title="Stage 2 Schematic Diagram" >}}
+
+The second stage is a 8-bit SAR ADC. The use of SAR architecture in the second stage enables a large resolution in this single stage. The implementation is very similar compare to the first stage but has two more capacitor sets. 
+
+
+
+
+
+
+
+
+
+
+
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - 📚 [**Personalize your site**](https://wowchemy.com/docs/)
