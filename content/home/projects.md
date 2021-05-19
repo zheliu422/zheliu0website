@@ -27,7 +27,7 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
+  - name: ADC
     tag: Deep Learning
   - name: Other
     tag: Demo
