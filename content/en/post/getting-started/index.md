@@ -1,5 +1,5 @@
 ---
-title: ADC design
+title: A 12-bit Two-Stage Pipelined SAR ADC design
 subtitle: 
 
 # Summary for listings and search engines
@@ -67,7 +67,6 @@ The first stage has 6-bit effective resolution. The first stage sub-ADC and CDAC
 
 The second stage is a 8-bit SAR ADC. The use of SAR architecture in the second stage enables a large resolution in this single stage. The implementation is very similar compare to the first stage but has two more capacitor sets. 
 
-
 ## SAR Logic
 {{< figure src="sarlogic1.png" title="6-bit SAR Logic" >}}
 The classic SAR architecture is use due to its straightforward design technique. Figure above is the implementation on Cadence. It consists of a set of ring counter and a set of shift regisiter. There are 2x6+2 = 14 D flip flops in use. For each conversion, piror to the first clock rising edge, RESET will first clocked high to reset all flip flop's output to 0. After that, the RESET signal remains low for the reset of the process. Once the first rising edge approaches, the MSB flip flop is set to 1. Then when second rising edge approaches, the counter shifts 1 to the next flip flop until it reaches the LSB. SAR logic determains the value of bit one by one based on the comparator's output. For a 6-bit SAR logic, it requires 1+6 = 7 cycles to complete one single conversion. Table below is the algorithm of 6-bit SAR logic.
@@ -83,10 +82,10 @@ The classic SAR architecture is use due to its straightforward design technique.
   | 6       | D1 |D2 |D3 |D4 |D5 |1  | D6 |
   | 7       | D1 |D2| D3 |D4| D5 |D6 | -- |
   
-
-
-
-
+## D Flip Flop
+{{< figure src="DFF.png" title="Circuit architecture for D Flip Flop" >}}
+Because SAR logic uses flip flop, we decide to implement a Positive-edge-triggered D flip-flop with Clear and Preset. Here, three input NAND gates are used. Below is the truth table of our DFF.
+{{< figure src="DFFtt.png" title="Truth Table for D Flip Flop" >}}
 
 
 
