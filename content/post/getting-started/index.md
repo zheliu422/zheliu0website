@@ -55,7 +55,7 @@ The target specifications are given in the following table:
 
 ## Get Started
 
-{{< figure src="adc1.png" caption="High Level Diagram for the Pipelined SAR ADC" >}}
+{{< figure src="https://github.com/zheliu422/starter-academic-1/blob/master/static/media/adc1.png" caption="High Level Diagram for the Pipelined SAR ADC" >}}
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - 📚 [**Personalize your site**](https://wowchemy.com/docs/)
@@ -106,6 +106,4 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 ## License
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
+Copyright 2016-present [Zhe Liu](zheliu0.com).
