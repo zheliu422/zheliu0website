@@ -47,7 +47,6 @@ The target specifications are given in the following table:
   | Technology   | 45nm (NCSU FreePDK45) |
   | Power supply  | VDD = 1.2V, VSS = 0V  |
   | Resistor size | < 100kΩ  |
-  | Power supply  | VDD = 1.2V, VSS = 0V  |
   | Capacitor size | 2fF~ 10pF  |
   | ENOB@ Nyquist rate  | >12bits  |
   | Sampling rate | >30MS/s  |
@@ -82,6 +81,9 @@ The classic SAR architecture is use due to its straightforward design technique.
   | 6       | D1 |D2 |D3 |D4 |D5 |1  | D6 |
   | 7       | D1 |D2| D3 |D4| D5 |D6 | -- |
   
+Below is the SAR Logic testing result. Notice that the input (Data) is set to 110000. Our SAR Logic output for each bit matches the input correctly. 
+{{< figure src="SARout.png" title="SAR logic testing" >}}
+
 ## D Flip Flop
 {{< figure src="DFF.png" title="Circuit architecture for D Flip Flop" >}}
 Because SAR logic uses flip flop, we decide to implement a Positive-edge-triggered D flip-flop with Clear and Preset. Here, three input NAND gates are used. Below is the truth table of our DFF.
