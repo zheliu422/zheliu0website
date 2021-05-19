@@ -55,7 +55,7 @@ The target specifications are given in the following table:
 
 ## Get Started
 
-{{< figure src="https://github.com/zheliu422/starter-academic-1/blob/master/static/media/adc1.png" caption="High Level Diagram for the Pipelined SAR ADC" >}}
+{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - 📚 [**Personalize your site**](https://wowchemy.com/docs/)
