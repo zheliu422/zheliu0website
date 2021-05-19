@@ -38,8 +38,8 @@ feature:
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-- icon: matlabsvg
-  icon_pack: "custom"
-  name: "MatLab"
-  description: "90%"
+# - icon: matlabsvg
+#  icon_pack: "custom"
+#  name: "MatLab"
+#  description: "90%"
 ---
