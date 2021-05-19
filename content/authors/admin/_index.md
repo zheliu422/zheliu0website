@@ -1,7 +1,7 @@
 ---
 title: Zhe Liu
 role: Graduate Student
-avatar_filename: Image.jpg
+avatar_filename: avatar.jpg
 bio: ""
 interests:
   - Analog Mixed Signal
