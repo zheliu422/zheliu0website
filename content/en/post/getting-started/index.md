@@ -68,8 +68,9 @@ The first stage has 6-bit effective resolution. The first stage sub-ADC and CDAC
 The second stage is a 8-bit SAR ADC. The use of SAR architecture in the second stage enables a large resolution in this single stage. The implementation is very similar compare to the first stage but has two more capacitor sets. 
 
 
-
-
+## SAR Logic
+{{< figure src="sarlogic1.png" title="6-bit SAR Logic" >}}
+The classic SAR architecture is use. Figure above is the implementation on Cadence. 
 
 
 
