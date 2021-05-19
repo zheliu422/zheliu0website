@@ -7,6 +7,7 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
+  title: Zhe Liu # Website name
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
@@ -17,6 +18,18 @@ zh:
     description: 刘哲个人网站
   menu:
     main:
-      - name: 传
+      - name: Home
         url: '#about'
-        weight: 1
+        weight: 10
+      - name: Skills
+        url: '#skills'
+        weight: 20
+      - name: Education
+        url: '#experience'
+        weight: 30
+      - name: Engineering Projects
+        url: '#posts'
+        weight: 40
+      - name: Contact
+        url: '#contact'
+        weight: 50
