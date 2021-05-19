@@ -3,7 +3,7 @@ title: ADC design
 subtitle: 
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: This page presents a two stage fully differential pipelined SAR ADC design that I worked on during Spring 2021
 
 # Link this post with a project
 projects:
