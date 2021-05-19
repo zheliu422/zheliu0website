@@ -26,7 +26,7 @@ image:
   caption: 'Image credit: [**predictabledesigns.com**](https://predictabledesigns.com/introduction-to-analog-to-digital-converters-adc/)'
   focal_point: ""
   placement: 2
-  preview_only: true
+  preview_only: false
 
 authors:
 - admin
@@ -42,19 +42,20 @@ categories:
 
 In this project, we designed a 2-stage pipelined Successive Approximation Register (SAR) Analog to Digital Converter (ADC). SAR ADC architectures are popular for achieving high energy efficiency but they suffer from resolution and speed limitations. The pipelined SAR architecture divides a moderate resolution SAR ADC into some low resolution SAR ADCs.
 The target specifications are given in the following table:
-| Technology   | 45nm (NCSU FreePDK45) |
-| ------------- | ------------- |
-| Power supply  | VDD = 1.2V, VSS = 0V  |
-| Resistor size | < 100kΩ  |
-| Power supply  | VDD = 1.2V, VSS = 0V  |
-| Capacitor size | 2fF~ 10pF  |
-| ENOB@ Nyquist rate  | >12bits  |
-| Sampling rate | >30MS/s  |
-| Walden figure-of-merit (FOM) | < 100-fJ/conversion-step  |
-
-{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+  | Item   | Specifications |
+  | ------------- | ------------- |
+  | Technology   | 45nm (NCSU FreePDK45) |
+  | Power supply  | VDD = 1.2V, VSS = 0V  |
+  | Resistor size | < 100kΩ  |
+  | Power supply  | VDD = 1.2V, VSS = 0V  |
+  | Capacitor size | 2fF~ 10pF  |
+  | ENOB@ Nyquist rate  | >12bits  |
+  | Sampling rate | >30MS/s  |
+  | Walden figure-of-merit (FOM) | < 100-fJ/conversion-step  |
 
 ## Get Started
+
+{{< figure src="adc1.png" title="High Level Diagram for the Pipelined SAR ADC" >}}
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - 📚 [**Personalize your site**](https://wowchemy.com/docs/)
