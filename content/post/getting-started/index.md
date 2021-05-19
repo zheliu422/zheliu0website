@@ -23,10 +23,10 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://predictabledesigns.com/introduction-to-analog-to-digital-converters-adc/)'
+  caption: 'Image credit: [**predictabledesigns.com**](https://predictabledesigns.com/introduction-to-analog-to-digital-converters-adc/)'
   focal_point: ""
   placement: 2
-  preview_only: false
+  preview_only: true
 
 authors:
 - admin
@@ -40,9 +40,17 @@ categories:
 
 ## Overview
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+In this project, we designed a 2-stage pipelined Successive Approximation Register (SAR) Analog to Digital Converter (ADC). SAR ADC architectures are popular for achieving high energy efficiency but they suffer from resolution and speed limitations. The pipelined SAR architecture divides a moderate resolution SAR ADC into some low resolution SAR ADCs.
+The target specifications are given in the following table:
+| Technology   | 45nm (NCSU FreePDK45) |
+| ------------- | ------------- |
+| Power supply  | VDD = 1.2V, VSS = 0V  |
+| Resistor size | < 100kΩ  |
+| Power supply  | VDD = 1.2V, VSS = 0V  |
+| Capacitor size | 2fF~ 10pF  |
+| ENOB@ Nyquist rate  | >12bits  |
+| Sampling rate | >30MS/s  |
+| Walden figure-of-merit (FOM) | < 100-fJ/conversion-step  |
 
 {{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
 
