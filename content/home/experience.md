@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Experience
+title: Education
 subtitle:
 
 # Date format for experience
@@ -22,37 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: 12-bit Pipelined SAR ADC Design
+  - title: Master of Science in Electrical and Computer Engineering
     company: Georgia Institute of Technology
-    company_url: ''
-    company_logo: 
-    location: Atlanta, GA
-    date_start: '2021-01-01'
-    date_end: '2021-05-01'
-    description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Fetal Heart Monitoring Device
-    company: Georgia Institute of Technology
-    company_url: ''
+    company_url: 'https://www.ece.gatech.edu/'
     company_logo: 
     location: Atlanta, GA
     date_start: '2020-08-01'
-    date_end: '2021-01-01'
-    description: Improved the circuit performance of audio signal acquisition by utilizing 5th order Bessel low pass and high pass filter
-    
-  - title: IEEE Hardware Competition
+    date_end: 'Present'
+    description: |2-
+        * Expected to Graduate on May 2022
+        * GPA: 3.60/4.0
+        
+  - title: Bachelor of Science in Electrical Engineering
     company: Virginia Tech
-    company_url: ''
+    company_url: 'https://ece.vt.edu/'
     company_logo: 
-    location: Blacksburg, VA
-    date_start: '2019-08-01'
-    date_end: '2020-05-01'
-    description: Drafted, designed, and built a fully autonomous robot
+    location: Blacksburg VA
+    date_start: '2016-08-01'
+    date_end: '2020-01-01'
+    description: |2-
+        * Dean’s List 6/8 semesters
+        * In major GPA: 3.62/4.0
 
 design:
   columns: '2'
