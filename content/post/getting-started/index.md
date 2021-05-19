@@ -55,7 +55,7 @@ The target specifications are given in the following table:
 
 ## Get Started
 
-{{< figure src="adc1.png" title="High Level Diagram for the Pipelined SAR ADC" >}}
+{{< figure src="adc1.png" caption="High Level Diagram for the Pipelined SAR ADC" >}}
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - 📚 [**Personalize your site**](https://wowchemy.com/docs/)
