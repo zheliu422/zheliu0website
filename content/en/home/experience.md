@@ -25,7 +25,7 @@ experience:
   - title: Master of Science in Electrical and Computer Engineering
     company: Georgia Institute of Technology
     company_url: 'https://www.ece.gatech.edu/'
-    company_logo: GT
+    company_logo: Georgia_Tech_Yellow_Jackets_logo
     location: Atlanta, GA
     date_start: '2020-08-01'
     date_end: '2022-05-01'
@@ -36,7 +36,7 @@ experience:
   - title: Bachelor of Science in Electrical Engineering
     company: Virginia Tech
     company_url: 'https://ece.vt.edu/'
-    company_logo: VT
+    company_logo: Virginia_Tech_Hokies_logo
     location: Blacksburg VA
     date_start: '2016-08-01'
     date_end: '2020-01-01'
