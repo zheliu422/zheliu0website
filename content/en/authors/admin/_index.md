@@ -1,19 +1,17 @@
 ---
 title: Zhe Liu
-role: Graduate Student
+role: Master's Student
+Graduate Researcher
 avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - Analog Mixed Signal
-  - VLSI Design
-  - Digital Image Processing
+  - Analog Mixed Signal Circuit Design
+  - Digital/VLSI Design
+  - Post-Silicon Verification
 social:
   - icon: envelope
     icon_pack: fas
     link: mailto:zliu796@gatech.edu
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/liuzhe_max
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/andyflowersliu_/
@@ -22,7 +20,7 @@ social:
     link: https://github.com/zheliu422
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/zhe-liu-7493aa142/
+    link: https://www.linkedin.com/in/zheliu0/
 organizations:
   - name: Georgia Institute of Technology
     url: https://www.gatech.edu/
@@ -39,8 +37,10 @@ superuser: true
 highlight_name: false
 ---
 
-Hello I am Zhe Liu! I am currently a Master's student at Georgia Tech. I have been studying in the field of Electrical Engineering for five consecutive years and it is an area that I enjoy a lot and eager to apply what I learned from school to industry. 
+Hello!! My name is Zhe Liu! I am currently a Master's student at Georgia Tech. I have been studying in the field of Electrical Engineering for five consecutive years. I am ready to devote myself wholeheartedly to apply what I learned from school to industry!
 
-I have worked on numerous successful design projects. You can see more details about my experience below. Currently I am looking for an internship opportunity for Summer/Fall 2021. I would be able to hit the ground running and start contributing immediately to your team.
+Started from June 2021, I worked at Georgia Tech Analog Mixed-signal Microsystems and Applications (GAMMA) group as a graduate researcher under the supervision of Dr. Shaolan Li. I have worked on numerous successful design projects. You can see more details about my experience below. 
 
-{{< icon name="download" pack="fas" >}} Download my Résumé {{< staticref "uploads/ZheLiuResumeV4.pdf" "newtab" >}}here{{< /staticref >}}.
+Currently I am looking for a full-time opportunity starting from May 2022. I will be a hard-working and determined person which will be a great foundation to start a career in your industry as an engineer. I very much look forward to the challenge and exciting career in engineering!
+
+Please feel free to reach out to me. Also, please download my latest Résumé {{< staticref "uploads/ZheLiuResumeV11.pdf" "newtab" >}}here{{< /staticref >}}.
