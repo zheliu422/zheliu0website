@@ -1,7 +1,6 @@
 ---
 title: Zhe Liu
-role: Master's Student
-Graduate Researcher
+role: Master's Student/Graduate Researcher
 avatar_filename: avatar.jpg
 bio: ""
 interests:
