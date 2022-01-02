@@ -7,13 +7,13 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Education
-    url: '#experience'
-    weight: 20
   - name: Skills
     url: '#skills'
+    weight: 20
+  - name: Education
+    url: '#experience'
     weight: 30
-  - name: Engineering Projects
+  - name: Projects
     url: '#posts'
     weight: 40
   - name: Contact
@@ -23,5 +23,5 @@ main:
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
-    url: uploads/ZheLiuResumeV4.pdf
+    url: uploads/ZheLiuResumeV11.pdf
     weight: 60
