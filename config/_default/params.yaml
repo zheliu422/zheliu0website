@@ -19,8 +19,6 @@ description: ''
 twitter: ''
 
 # Contact (edit or remove options as required)
-
-email: zliu796@gatech.edu
 phone: (540)998-0985
 address:
   street: 2875 Crescent Pkwy
@@ -38,14 +36,6 @@ contact_links:
     icon_pack: fab
     name: LinkedIn
     link: 'https://www.linkedin.com/in/zhe-liu-7493aa142/'
-  - icon: twitter
-    icon_pack: fab
-    name: Twitter
-    link: 'https://twitter.com/liuzhe_max'
-  - icon: facebook
-    icon_pack: fab
-    name: Facebook
-    link: 'https://www.facebook.com/profile.php?id=100005061847023'
 
 
 # Site header
