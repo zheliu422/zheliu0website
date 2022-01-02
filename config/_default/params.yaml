@@ -27,6 +27,9 @@ address:
   postcode: '30339'
   country: United States
   country_code: US
+coordinates:
+  latitude: '33.777524'
+  longitude: '-84.396128'
 contact_links:
   - icon: envelope
     icon_pack: fas
@@ -60,6 +63,7 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
+  - python
 math: false
 diagram: false
 privacy_pack: false
