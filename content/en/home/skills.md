@@ -19,15 +19,15 @@ feature:
 - description: 
   icon: drafting-compass
   icon_pack: fas
-  name: Analog Design and Analysis
+  name: Analog Circuit Design
 - description: 
-  icon: bezier-curve
+  icon: cogs
   icon_pack: fas
-  name: VLSI design
+  name: VLSI Design
 - description:
-  icon: file-code
+  icon: digital-tachograph
   icon_pack: fas
-  name: Coding
+  name: Lab tools
 
 # Uncomment to use emoji icons.
 # - icon: ":smile:"
