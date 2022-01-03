@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "An 84dB-SNDR Low-OSR 4th-Order Noise-Shaping SAR with an FIA-Assisted EF-CRFF Structure and Noise-Mitigated Push-Pull Buffer-in-Loop Technique"
 authors:
 - admin
 - Robert Ford
