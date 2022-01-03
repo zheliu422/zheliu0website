@@ -1,6 +1,8 @@
 ---
 title: "An 84dB-SNDR Low-OSR 4th-Order Noise-Shaping SAR with an FIA-Assisted EF-CRFF Structure and Noise-Mitigated Push-Pull Buffer-in-Loop Technique"
 authors:
+- Tzu-Han Wang
+- Robert Ford
 - admin
 - Robert Ford
 author_notes:
