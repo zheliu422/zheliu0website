@@ -30,9 +30,11 @@ image:
 
 authors:
 - admin
+- Shida Zhang
 
 tags:
 - Academic
+- Class Project
 
 categories:
 - ADC
