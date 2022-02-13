@@ -30,9 +30,9 @@ featured: false
 
 authors:
 - admin
+- Dylan Nektalov
 
 tags:
-- Academic
 - Class Project
 
 categories:
@@ -54,7 +54,10 @@ We propose dynamically switching between two voltage levels during read and writ
 
 ## METHODOLOGY
 First, a schematic of an SRAM was created. Pfets were sized to 90 nm. Access transistors were sized to 135 nm. Nfets were sized to 180 nm. This cell was used for waveform analysis to measure the margins. To measure the write margin, The bit line (BL) voltage was sweeped to estimate the minimum voltage needed to create a transition at the storage node. To measure the read margin, we needed to find the difference between the trip point and the read voltage. 
-We then implemented a layout for one SRAM cell because layout will help us understand the intricate details of parasites. Also, a Monte Carlo simulation could be done on the layout to help us study the Rise and Fall delay improvement of our proposed method. The SRAM cell layout followed a classical design approach. The cell has a length of 1.67nm and width of 1.93nm. After DRC and LVS checks, a netlist is created using PEX tools. The netlist is for the use of HSpice to help us with Monte Carlo analysis. We applied ΔVt = 0.08V with 5 nm change in Wp, Lp, and Ln, 10 nm change in Wn. For the delay analysis, the fall delay is defined as the time that data fall from 95% to 5% of Vcc. For rise delay, it is defined as the time that data rises from 5% to 95% of Vcc.
+We then implemented a layout for one SRAM cell because layout will help us understand the intricate details of parasites. 
+{{< figure src="layout.png" title="Layout of SRAM cell" >}}
+{{< figure src="Parasitics.png" title="Parasitics Capacitance of SRAM cell" >}}
+Also, a Monte Carlo simulation could be done on the layout to help us study the Rise and Fall delay improvement of our proposed method. The SRAM cell layout followed a classical design approach. The cell has a length of 1.67nm and width of 1.93nm. After DRC and LVS checks, a netlist is created using PEX tools. The netlist is for the use of HSpice to help us with Monte Carlo analysis. We applied ΔVt = 0.08V with 5 nm change in Wp, Lp, and Ln, 10 nm change in Wn. For the delay analysis, the fall delay is defined as the time that data fall from 95% to 5% of Vcc. For rise delay, it is defined as the time that data rises from 5% to 95% of Vcc.
 
 ## KEY FINDINGS
 Using a standard 1.0V supply voltage, the write margin was measured to be 397mV. With a 800mV supply voltage, the write margin was measured to be 481mV. So, the write margin increased when we apply Vcc_Low. Two waveforms can be seen below that illustrate the waveform for this transient analysis.
