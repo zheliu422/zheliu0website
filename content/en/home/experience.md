@@ -31,7 +31,7 @@ experience:
     date_end: '2022-05-01'
     description: |2-
         * Expected Graduate: May 2022
-        * GPA: 3.72/4.0
+        * GPA: 3.74/4.0
         
   - title: Bachelor of Science in Electrical Engineering
     company: Virginia Tech
