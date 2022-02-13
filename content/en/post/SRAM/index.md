@@ -58,3 +58,5 @@ We then implemented a layout for one SRAM cell because layout will help us under
 
 ## KEY FINDINGS
 Using a standard 1.0V supply voltage, the write margin was measured to be 397mV. With a 800mV supply voltage, the write margin was measured to be 481mV. So, the write margin increased when we apply Vcc_Low. Two waveforms can be seen below that illustrate the waveform for this transient analysis.
+{{< figure src="key_find1.jpg" title="Write margin for baseline" >}}
+{{< figure src="key_find2.jpg" title="Write margin for proposed dual Vcc design" >}}
