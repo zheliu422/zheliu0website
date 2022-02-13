@@ -71,3 +71,18 @@ The rise and fall delay were measured for both baseline and our proposed dual Vc
 A leakage analysis has been performed on one SRAM cell. The reported leakage current at t=1.59 ns for baseline 1V Vcc is 8.84 nA. As for our proposed dual Vcc operation, the standby voltage for cell supply is 0.8V. At same time stamps, the leakage current is 3.037 nA. Compare the result, our dual Vcc method saved around 72.52% of leakage power during idle phase. We then performed a parametric analysis and sweeped cell Vcc from 0.8V to 1.2V. As the result shows in the figure below. The leakage saving is maximized at Vcc = 0.8V.  
 {{< figure src="leak.jpg" title="Vcc vs. Leakage current in idle phase">}}
 Below is a summary of our analysis. With our proposed design, we achieved a higher read and write margin. Furthermore, we achieved a lower average fall delay, but not a faster rise time. One solution could be raising the supply voltage when the storage nodes meet to help with amplification. That way the P-FETs are stronger. All in all, we can generally improve write operations, while minimizing negative impacts in rise delay, which makes this an effective design.
+  | Item   | Write Margin | Read Margin | Monte Carlo Average Fall Delay | Monte Carlo Average Rise Delay |
+  | ------------- | ------------- |------------- | ------------- |------------- |
+  | Baseline   | 397.8 mV	| 271 mV | 329.46 ps |	115.82 ps |
+  | Dynamic Vcc  | 481.7 mV |	285 mV |	252.26 ps|	127.4 ps |
+  
+## FUTURE WORK
+In the future, we plan to expand our work from one cell to one bank (2kB). Our hope would be to integrate column-based power supply techniques to further improve cell stability. That way, we can test our functionality under a more complex scheme. In addition, we could further analyze leakage power saving for a more complete design.
+
+## References
+[1] K. Zhang et al., "A 3-GHz 70MB SRAM in 65nm CMOS technology with integrated column-based dynamic power supply," ISSCC. 2005 IEEE International Digest of Technical Papers. Solid-State Circuits Conference, 2005., 2005, pp. 474-611 Vol. 1, doi: 10.1109/ISSCC.2005.1494075.
+[2] 6T SRAM Cell Design, https://www.iue.tuwien.ac.at/phd/entner/node34.html 
+E. Grossar, M. Stucchi, K. Maex and W. Dehaene, "Read Stability and Write-Ability Analysis of SRAM Cells for Nanometer Technologies," in IEEE Journal of Solid-State Circuits, vol. 41, no. 11, pp. 2577-2588, Nov. 2006, doi: 10.1109/JSSC.2006.883344.
+[3] Tripti Tripathi , Durg Singh Chauhan, Sanjay Kumar Singh, “A Novel Approach to Design SRAM Cells for Low
+Leakage and Improved Stability,” Journal of Low Power Electronics and Applications
+[4] M. Mamidipaka, K Khouri, N Dutt, M. Abadir, “Leakage Power Estimation in SRAMs,” CECS Technical Report #03-32
