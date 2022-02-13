@@ -9,10 +9,10 @@ summary: This page presents a two stage fully differential pipelined SAR ADC des
 projects:
 
 # Date published
-date: "2020-12-13T00:00:00Z"
+date: "2021-05-13T00:00:00Z"
 
 # Date updated
-lastmod: "2020-12-13T00:00:00Z"
+lastmod: "2021-12-13T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
