@@ -53,7 +53,7 @@ image:
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
+Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
