@@ -1,8 +1,8 @@
 ---
 widget: portfolio
 headless: true
-weight: 140
-title: Explore More of Our Product
+weight: 120
+title: Notes
 subtitle:
 content:
   page_type: book
