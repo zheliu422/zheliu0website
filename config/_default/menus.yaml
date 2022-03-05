@@ -15,16 +15,20 @@ main:
     weight: 30
   - name: Publications
     url: '#publications'
-    weight: 50
+    weight: 40
   - name: Projects
     url: '#posts'
     weight: 50
+  - name: Notes
+    url: '/en/course/example/'
+    weight: 60
+    identifier: courses
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
     url: uploads/ZheLiuResumeV11.pdf
-    weight: 70
+    weight: 80
