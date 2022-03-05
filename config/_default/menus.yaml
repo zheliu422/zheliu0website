@@ -20,7 +20,7 @@ main:
     url: '#posts'
     weight: 50
   - name: Notes
-    url: '/en/course/example/'
+    url: '/course/example/'
     weight: 60
     identifier: courses
   - name: Contact
