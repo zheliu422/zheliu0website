@@ -22,7 +22,7 @@ main:
   - name: Notes
     url: '/course'
     weight: 60
-   - name: Check-fresh
+  - name: Check-fresh
     url: '/course/example/'
     weight: 10
     parent: courses
