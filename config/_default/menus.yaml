@@ -20,8 +20,12 @@ main:
     url: '#posts'
     weight: 50
   - name: Notes
-    url: '/course/example/'
+    url: '/course'
     weight: 60
+   - name: Check-fresh
+    url: '/course/example/'
+    weight: 10
+    parent: courses
     identifier: courses
   - name: Contact
     url: '#contact'
