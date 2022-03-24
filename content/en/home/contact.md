@@ -17,9 +17,6 @@ content:
   autolink: true
   
   # Email form provider
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
   
 design:
   columns: '2'
