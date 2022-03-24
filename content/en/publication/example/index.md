@@ -66,7 +66,10 @@ slides: ""
 ---
 
 {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Click the *PDF* button above to see the work.
+{{% /callout %}}
+{{% callout note %}}
+Click the *Cite* button above to import publication metadata into your reference management software.
 {{% /callout %}}
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
