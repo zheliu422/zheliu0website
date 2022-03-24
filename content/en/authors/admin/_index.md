@@ -16,7 +16,7 @@ social:
     link: https://www.instagram.com/andyflowersliu_/
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=oo3aUdQAAAAJ&hl=en&oi=sra
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/zheliu0/
