@@ -72,4 +72,4 @@ Click the *PDF * button above to see the work.
 Click the *Cite * button above to import publication metadata into your reference management software.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [presentation](https://github.com/zheliu422/Supporting_File/blob/main/NSSAR_slide.pdf), [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9731771).
+Supplementary notes can be found here, including our ISSCC 2022 [Presentation](https://github.com/zheliu422/Supporting_File/blob/main/NSSAR_slide.pdf), and the main page on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9731771).
