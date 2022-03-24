@@ -15,10 +15,10 @@ main:
     weight: 30
   - name: Publications
     url: '#publications'
-    weight: 40
+    weight: 50
   - name: Projects
     url: '#posts'
-    weight: 50
+    weight: 40
   - name: Notes
     url: '/course'
     weight: 60
