@@ -24,6 +24,8 @@ publication_types: ["1"]
 publication: "IEEE International Solid-State Circuits Conference (ISSCC) 2022, accepted"
 publication_short: "ISSCC 2022"
 
+Supplementary notes can be found here, including our ISSCC 2022 [Presentation](https://github.com/zheliu422/Supporting_File/blob/main/NSSAR_slide.pdf), and the main page on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9731771).
+
 abstract: With the combined merits of the SAR and the ΔΣ ADCs, the noise-shaping (NS) SAR architecture can achieve high resolution with a mild OSR, making it versatile for a wide range of applications. Nonetheless, designing a highly power-efficient NS-SAR under relatively low OSRs (<8) can be challenging. It requires the design to concurrently address two key considerations. The first is to implement high-order optimized NS with simple and low-power hardware that maximally preserves a SAR’s efficient nature. In this regard, two recent works report 4th-order NS using a cascaded EF structure [1] and an FVF-assisted CIFF structure [2] respectively, both allowing aggressive NTFs to be realized with simple open-loop amps. However, they still employ static amps/buffers, which limit the power improvement. Also, the lack of NTF optimization makes them nonideal for low OSR designs. The second concern is the growing kT/C noise contribution under low OSR and the related large stress on the input driver. To alleviate this issue, ref [3] presents an NS-SAR with a loop-embedded input buffer that decouples the input capacitance from the kT/C noise constraint; but it suffers from large noise penalty introduced by the buffer and the separated CDAC. Alternatively, a sampling noise cancellation (SNC) technique is proposed in [4] to facilitate a smaller CDAC value. However, owing to imperfect cancellation caused by circuit non-idealities, the CDAC can remain considerably large.
 
 tags:
@@ -72,4 +74,3 @@ Click the *PDF * button above to see the work.
 Click the *Cite * button above to import publication metadata into your reference management software.
 {{% /callout %}}
 
-Supplementary notes can be found here, including our ISSCC 2022 [Presentation](https://github.com/zheliu422/Supporting_File/blob/main/NSSAR_slide.pdf), and the main page on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9731771).
