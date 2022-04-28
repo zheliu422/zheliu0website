@@ -1,6 +1,6 @@
 ---
 title: 刘哲（Zhe Liu）
-role: Master's Student/Graduate Researcher
+role: 设计验证工程师
 avatar_filename: avatar.jpg
 bio: ""
 interests:
@@ -32,8 +32,8 @@ superuser: true
 highlight_name: false
 ---
 
-Hello!! My name is Zhe Liu! I am currently a Master's student at Georgia Tech. I have been studying in the field of Electrical Engineering for five consecutive years. I am ready to devote myself wholeheartedly to apply what I learned from school to industry!
+刘哲2020年本科毕业于弗吉尼亚理工大学，2022年硕士毕业于佐治亚理工大学。他在2022年入职美光。
 
-Started from June 2021, I worked at [Georgia Tech Analog Mixed-signal Microsystems and Applications (GAMMA)](https://gamma.ece.gatech.edu/) group as a graduate researcher under the supervision of Dr. Shaolan Li. In this role, I was focused on a post-silicon performance measurements project of a novel noise-shaping SAR ADC. Works included measurement of performance parameters (e.g. SNDR, SFDR, DR, etc.), validation of PVT robustness, and demonstration of ADC performance by ECG signal input. This work has been successfully accepted by ISSCC 2022 conference and the measurement part played a key role to the successful publication. I have also worked on numerous successful class design projects. You can see more details about my experience below. 
+刘哲从2021年6月起作为一名助理研究员加入佐治亚理工[李绍岚教授](https://www.sunresearchgroup.top/zh/author/%E6%9D%8E%E7%BB%8D%E5%B2%9A/)的[GAMMA](https://gamma.ece.gatech.edu/) 实验室。在此期间，他参与了全部流片后的芯片验证。流片后验证依赖实验室测试设备，包括数字万用表、示波器、逻辑分析仪、开关电源、外部测试平台等等并使用MATLAB来配合验证。使用一切硬件工具手段测试芯片功能和电性参数。这些参数包括信号噪声失真比(SNDR),无杂散动态范围(SFDR),动态范围(DR)等等。验证了芯片在工艺，电压/电流，温度，输入阻抗下的鲁棒性。同时使用了心电图(ECG)信号来证明ADC芯片的实际应用性。这份研究成果已于2022年被国际固态半导体电路会议(ISSCC)收录。
 
-I will be a hard-working and determined person which will be a great foundation to start a career in your industry as an engineer. I very much look forward to the challenge and exciting career in engineering! Please feel free to reach out to me. Also, please download my latest Résumé {{< staticref "uploads/ZheLiuResumeV11.pdf" "newtab" >}}here{{< /staticref >}}.
+请下载我的简历：Résumé {{< staticref "uploads/ZheLiuResumeV11.pdf" "newtab" >}}here{{< /staticref >}}.
