@@ -31,7 +31,7 @@ zh:
         url: '#posts'
         weight: 40
       - name: 文章发表
-        url: '#posts'
+        url: '#publications'
         weight: 50
       - name: 联系方式
         url: '#contact'
