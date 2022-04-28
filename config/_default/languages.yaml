@@ -32,7 +32,7 @@ zh:
         weight: 40
       - name: 文章发表
         url: '#publications'
-        weight: 50
+        weight: 60
       - name: 联系方式
         url: '#contact'
-        weight: 60
+        weight: 70
