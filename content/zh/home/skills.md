@@ -19,15 +19,15 @@ feature:
 - description: 
   icon: drafting-compass
   icon_pack: fas
-  name: Analog Circuit Design
+  name: 模拟和混合信号集成电路芯片设计
 - description: 
   icon: cogs
   icon_pack: fas
-  name: VLSI Design
+  name: 大规模集成电路设计
 - description:
   icon: digital-tachograph
   icon_pack: fas
-  name: Lab tools
+  name: IC验证
 
 # Uncomment to use emoji icons.
 # - icon: ":smile:"
