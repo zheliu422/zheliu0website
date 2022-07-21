@@ -21,24 +21,24 @@ twitter: ''
 # Contact (edit or remove options as required)
 phone: (540)998-0985
 address:
-  street: 266 Ferst Dr NW
+  street: 1075 Peachtree St.
   city: Atlanta
   region: GA
-  postcode: '30332'
+  postcode: '30309'
   country: United States
   country_code: US
 coordinates:
-  latitude: '33.777524'
-  longitude: '-84.396128'
+  latitude: '33.7897'
+  longitude: '-84.3845'
 contact_links:
   - icon: envelope
     icon_pack: fas
     name: E-Mail
-    link: 'mailto:zliu796@gatech.edu'
+    link: 'mailto:zheliu796@gmail.com'
   - icon: linkedin
     icon_pack: fab
     name: LinkedIn
-    link: 'https://www.linkedin.com/in/zhe-liu-7493aa142/'
+    link: 'https://www.linkedin.com/in/zheliu0/'
 
 
 # Site header
