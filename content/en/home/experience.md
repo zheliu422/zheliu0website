@@ -29,9 +29,6 @@ experience:
     location: Atlanta, GA
     date_start: '2020-08-01'
     date_end: '2022-05-07'
-    description: |2-
-        * Expected Graduate: May 2022
-        * GPA: 3.74/4.0
         
   - title: Bachelor of Science in Electrical Engineering
     company: Virginia Tech
@@ -40,9 +37,6 @@ experience:
     location: Blacksburg VA
     date_start: '2016-08-01'
     date_end: '2020-05-17'
-    description: |2-
-        * Dean’s List 6/8 semesters
-        * In major GPA: 3.62/4.0
 
 design:
   columns: '2'
