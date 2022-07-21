@@ -19,15 +19,15 @@ feature:
 - description: 
   icon: drafting-compass
   icon_pack: fas
-  name: Analog Circuit Design
+  name: Full Chip Simulation
 - description: 
   icon: cogs
   icon_pack: fas
-  name: VLSI Design
+  name: Spice/VHDL
 - description:
   icon: digital-tachograph
   icon_pack: fas
-  name: Lab tools
+  name: Lab Equipment
 
 # Uncomment to use emoji icons.
 # - icon: ":smile:"
