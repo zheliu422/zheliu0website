@@ -70,16 +70,3 @@ Supplementary notes can be found here, including our ISSCC 2022 [Presentation](h
 {{% callout note %}}
 Click the *Cite * button above to import publication metadata into your reference management software.
 {{% /callout %}}
-
----
-title: "An 84dB-SNDR Low-OSR 4th-Order Noise-Shaping SAR with an FIA-Assisted EF-CRFF Structure and Noise-Mitigated Push-Pull Buffer-in-Loop Technique"
-authors:
-- Tian Xie
-- Tzu-Han Wang
-- admin
-- Shaolan Li
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2022-02-01T00:00:00Z"
-doi: ""
