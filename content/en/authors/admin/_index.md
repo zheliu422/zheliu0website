@@ -3,7 +3,7 @@ title: Zhe Liu
 role: DRAM Design Verification Engineer
 avatar_filename: avatar.jpg
 bio: ""
-Responsibility:
+interests:
   - Identify and develop coverage measures for stimulus and corner-cases
   - Debug failure, purpose circuit improvement methodology to deliver functionally correct design
   - Cooperate with design engineers, peoduct engineer, and other relevant functions to solve technical issues for quality
@@ -21,14 +21,6 @@ social:
 organizations:
   - name: Micron Technology Inc.
     url: https://www.micron.com/
-education:
-  courses:
-    - course: M.S. in Electrical Engineering
-      institution: Georgia Institute of Technology
-      year: 2020 - 2022
-    - course: B.S. in Electrical Engineering
-      institution: Virginia Polytechnic Institute and State University
-      year: 2016 - 2020
 email: zheliu796@gmail.com
 superuser: true
 highlight_name: false
