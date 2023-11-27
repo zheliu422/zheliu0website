@@ -4,30 +4,30 @@
 widget: featurette
 
 # This file represents a page section.
-headless: true
+headless: false
 
 # Order that this section appears on the page.
-weight: 20
+# weight: 20
 
-title: Skills
-subtitle:
+# title: Skills
+# subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-feature:
-- description: 
-  icon: drafting-compass
-  icon_pack: fas
-  name: Full Chip Simulation
-- description: 
-  icon: cogs
-  icon_pack: fas
-  name: Spice/VHDL
-- description:
-  icon: digital-tachograph
-  icon_pack: fas
-  name: Lab Equipment
+# feature:
+# - description: 
+#  icon: drafting-compass
+#  icon_pack: fas
+#  name: Full Chip Simulation
+# - description: 
+#  icon: cogs
+#  icon_pack: fas
+#  name: Spice/VHDL
+# - description:
+#  icon: digital-tachograph
+#  icon_pack: fas
+#  name: Lab Equipment
 
 # Uncomment to use emoji icons.
 # - icon: ":smile:"
